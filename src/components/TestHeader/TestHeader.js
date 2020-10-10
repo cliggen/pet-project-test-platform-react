@@ -2,7 +2,7 @@ import React from "react";
 
 const TestHeader = () => {
     return(
-        <h1>Life Test</h1>
+        <h1>Test of your life</h1>
     );
 }
 

@@ -20,7 +20,7 @@ const questionList = [
     },
     {
         question: 'What technologies do you use?',
-        answers: ['HTML', 'CSS', 'JS'],
+        answers: ['HTML', 'CSS', 'JS', 'React JS'],
         rightAnswer: 'JS',
         singleAnswer: false
     }

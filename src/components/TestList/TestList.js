@@ -5,9 +5,9 @@ import TestListAnswers from "../TestListAnswers/TestListAnswers";
 const TestList = ({questions}) => {
     const elements = questions.map((item) => {
         return (
-            <li> <TestListQuestion question={item.question}/>
+            <li className="list-group-item"> <TestListQuestion question={item.question}/>
             <ul>
-                <TestListAnswers singleAnswer={item.singleAnswer}  answers={item.answers}/>
+                <TestListAnswers question={item.question} singleAnswer={item.singleAnswer}  answers={item.answers}/>
             </ul>
         </li>
         )
@@ -15,7 +15,7 @@ const TestList = ({questions}) => {
 
 
     return(
-        <ol>
+        <ol className="list-group">
             {elements}
         </ol>
     )
